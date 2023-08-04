@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- botão pressionado -->
+    <item android:state_pressed="true">
+        <shape xmlns:android="http://schemas.android.com/apk/res/android">
+            <solid android:color="@color/pressionado" />
+            <corners android:radius="28dp" />
+            <padding
+                android:left="10dp"
+                android:top="5dp"
+                android:right="10dp"
+                android:bottom="5dp" />
+        </shape>
+    </item>
+    <!-- não pressionado -->
+    <item>
+        <shape xmlns:android="http://schemas.android.com/apk/res/android">
+            <solid android:color="@color/purple" />
+            <corners android:radius="28dp" />
+            <padding
+                android:left="10dp"
+                android:top="5dp"
+                android:right="10dp"
+                android:bottom="5dp" />
+        </shape>
+    </item>
+</selector>
+
